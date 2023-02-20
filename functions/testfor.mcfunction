@@ -1,0 +1,2 @@
+execute as @r if entity @s[hasitem={item=FCAdd:miner_helmet,location=slot.armor.head}] at @s[hasitem={item=FCAdd:miner_helmet,location=slot.armor.head}] run function miner_light_function 
+execute as @a unless entity @s[hasitem={item=FCAdd:miner_helmet,location=slot.armor.head}] at @s run function miner_no_light_function

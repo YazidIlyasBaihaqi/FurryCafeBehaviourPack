@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:horsearmorgold"
+    },
+    "groups": [
+      "test"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0  ",
+      "345",
+      "6 8"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:gold_ingot"
+      },
+      "3": {
+        "item": "minecraft:gold_ingot"
+      },
+      "4": {
+        "item": "minecraft:saddle"
+      },
+      "5": {
+        "item": "minecraft:gold_ingot"
+      },
+      "6": {
+        "item": "minecraft:string"
+      },
+      "8": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "minecraft:golden_horse_armor",
+      "count": 1
+    }
+  }
+}

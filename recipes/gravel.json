@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:gravel"
+    },
+    "tags": [
+      "blast_furnace"
+    ],
+    "input": "minecraft:cobblestone",
+    "output": "minecraft:gravel"
+  }
+}

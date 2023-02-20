@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "crafting:recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#G#",
+			"iLi"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:leather"
+			},
+			"G": {
+				"item": "minecraft:glowstone"
+			},
+			"i": {
+				"item": "minecraft:iron_ingot"
+			},
+			"L": {
+				"item": "minecraft:leather_helmet"
+			}
+		},
+		"result": {
+			"item": "FCAdd:miner_helmet"
+		}
+	}
+}

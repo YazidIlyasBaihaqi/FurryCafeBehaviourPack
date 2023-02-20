@@ -1,0 +1,25 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "FCAdd:dark_oak_window",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.windows"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.wood_window",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "FCAdd_dark_oak_window",
+          "render_method": "blend",
+          "ambient_occlusion": true
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      }
+    }
+  }
+}

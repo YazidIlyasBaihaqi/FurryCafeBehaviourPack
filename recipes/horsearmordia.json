@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:horsearmordia"
+    },
+    "groups": [
+      "test"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0  ",
+      "345",
+      "6 8"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:diamond"
+      },
+      "3": {
+        "item": "minecraft:diamond"
+      },
+      "4": {
+        "item": "minecraft:saddle"
+      },
+      "5": {
+        "item": "minecraft:diamond"
+      },
+      "6": {
+        "item": "minecraft:string"
+      },
+      "8": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "minecraft:diamond_horse_armor",
+      "count": 1
+    }
+  }
+}

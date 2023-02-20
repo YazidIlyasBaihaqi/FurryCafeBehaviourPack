@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "FCAdd:oak_window"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"#G#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks",
+				"data": "0"
+			},
+			"G": {
+				"item": "minecraft:glass"
+			}
+		},
+		"result": {
+			"item": "FCAdd:oak_window"
+		}
+	}
+}

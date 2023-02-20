@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "FCAdd:acacia_window"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" # ",
+			"#G#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:planks",
+				"data": "4"
+			},
+			"G": {
+				"item": "minecraft:glass"
+			}
+		},
+		"result": {
+			"item": "FCAdd:acacia_window"
+		}
+	}
+}

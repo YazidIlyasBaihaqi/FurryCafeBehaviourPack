@@ -1,0 +1,101 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "FCAdd:carpet_1",
+			"properties": {
+				"FCAdd:rotation": [
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		},
+		"events": {
+			"FCAdd:set_rotation": {
+				"set_block_property": {
+					"FCAdd:rotation": "(query.cardinal_facing_2d)"
+				}
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.carpet_1",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "FCAdd_carpet_1",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					6,
+					0,
+					-4
+				],
+				"size": [
+					16,
+					0,
+					6
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16.0,
+					1,
+					16.0
+				]
+			},
+			"minecraft:on_player_placing": {
+				"event": "FCAdd:set_rotation"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('FCAdd:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('FCAdd:rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('FCAdd:rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('FCAdd:rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			}
+		]
+	}
+}

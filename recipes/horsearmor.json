@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:horsearmor"
+    },
+    "groups": [
+      "test"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0  ",
+      "345",
+      "6 8"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:iron_ingot"
+      },
+      "3": {
+        "item": "minecraft:iron_ingot"
+      },
+      "4": {
+        "item": "minecraft:saddle"
+      },
+      "5": {
+        "item": "minecraft:iron_ingot"
+      },
+      "6": {
+        "item": "minecraft:string"
+      },
+      "8": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "minecraft:iron_horse_armor",
+      "count": 1
+    }
+  }
+}

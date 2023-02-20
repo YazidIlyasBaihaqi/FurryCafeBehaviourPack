@@ -1,0 +1,68 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "FCAdd:spruce_vertical_slab",
+      "properties": {
+        "FCAdd:rotation": [2, 3, 4, 5]
+      },
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.slab"
+      }
+    },
+    "events": {
+      "FCAdd:set_rotation": {
+        "set_block_property": {
+          "FCAdd:rotation": "(query.cardinal_facing_2d)"
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.slab_vertical",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "planks_spruce",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [-8, 0, 0],
+        "size": [16, 16, 8]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, 0],
+        "size": [16, 16, 8]
+      },
+      "minecraft:on_player_placing": {
+        "event": "FCAdd:set_rotation"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('FCAdd:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [0, 0, 0]
+        }
+      },
+      {
+        "condition": "query.block_property('FCAdd:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [0, 180, 0]
+        }
+      },
+      {
+        "condition": "query.block_property('FCAdd:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [0, 90, 0]
+        }
+      },
+      {
+        "condition": "query.block_property('FCAdd:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [0, 270, 0]
+        }
+      }
+    ]
+  }
+}

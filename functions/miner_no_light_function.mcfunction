@@ -1,0 +1,1 @@
+fill ~ ~ ~ ^-1 ^-1 ^-1 air 0 replace light_block 12
